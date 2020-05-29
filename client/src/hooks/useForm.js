@@ -3,7 +3,7 @@ import {useState} from "react";
 
 export const useForm = key =>{
   const [value, setValue] = useState(key);
-  const [showSuccess, setShowSuccess] = useState(true)
+  const [showSuccess, setShowSuccess] = useState(false)
 
 
   const handleChanges = (e) =>{
